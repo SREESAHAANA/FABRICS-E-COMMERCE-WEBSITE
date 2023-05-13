@@ -1,0 +1,16 @@
+
+
+body{
+    background-image:url("https://www.vaanisilks.com/images/b5.jpg");
+    background-repeat: no-repeat;
+}
+div{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: cornsilk;
+    text-align: right;
+    border-right-width: 250px;
+    border-bottom-width: 250px;
+}

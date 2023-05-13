@@ -1,0 +1,226 @@
+.box1{ 
+    border: 2px solid black;
+    background-color: black;
+    height: 30px;
+}
+
+ul{ 
+    float: left; 
+    color:white; 
+} 
+
+ul li{ 
+    margin-top: -10px;
+    float:left; 
+    position:relative;
+    left: 300%; 
+    width: 82px;
+    font-size: 12px; 
+    font-family: barlow condensed,sans-serif;
+    list-style-type:none;
+}
+ul li a{ 
+    text-decoration: none; 
+    color: white;
+}
+h5{ 
+    margin-top: 1px; 
+    color: white; 
+    margin:7px 12px; 
+    position: relative; 
+    left: -18%; 
+    font-family: Trebuchet, sans-serif; 
+    text-transform: capitalize; 
+    font-size:14px; 
+    font-weight: normal; 
+} 
+.subbox{ 
+    border: 1px solid transparent; 
+    background-color: whitesmoke; 
+    height: 50px;
+}
+ol{ 
+    float:left; 
+} 
+ol li{ 
+    float: left; 
+    width: 90px; 
+    position: relative; 
+    left:25%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif; 
+    font-size: 18px;
+} 
+ol li a{
+    text-decoration: none; 
+    color: black;
+} 
+ol li a:hover{ 
+    border-bottom: 4px solid red;
+}
+.fa-search{
+     position: absolute; 
+     left: 82%; 
+     top: 9%;
+     color: black;
+}
+.fa-user{
+    position: absolute; 
+    left: 85%; 
+    top: 9%;
+    color: black;
+} 
+.fa-shopping-cart{ 
+    position: absolute; 
+    left: 88%; 
+    top: 9%;
+    color: black; 
+    width: 25px;
+    height: -30px; 
+    border-radius: 100px; 
+    background-color: navajowhite; 
+    margin-top:-2px; 
+    margin-left: -4px; 
+    text-align: left;
+}    
+h3{ 
+    color:red; 
+    position:absolute;
+    left:88.8%;
+    top:4%;
+    width:18px;
+    height:-50px; 
+    border-radius:100px;
+    text-align:center; 
+    font-family:barlow condensed,sans-serif; 
+} 
+h2{ 
+    position: relative; 
+    left: -51.8%;
+    text-transform: uppercase; 
+    font-family: barlow condensed,sans serif;
+    margin-top: 3px;
+    font-weight: bolder;
+} 
+font{ 
+    color:crimson;
+}
+.cover img{ 
+    background-size: cover;
+    height: 530px; 
+    width: 1328px;
+}
+.text{ 
+    position: absolute; 
+    top:30%;
+    left:7%;
+}
+h1{
+    font-size: 70px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: inherit; 
+    width:460px;
+    word-spacing: 0px;
+    font-weight:normal; 
+    line-height: 72px;
+}
+h4{ 
+    position: absolute; 
+    top:-1%; 
+    font-size:20px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+form input[type="submit"]{
+    position: absolute;
+    top:86%; 
+    padding: 15px; 
+    text-transform: lowercase;
+    background-color: black;
+    border: none;
+    color: blanchedalmond;
+    font-family: barlow condensed,sans-serif; 
+    letter-spacing: 1px;
+} 
+form input[type="submit"]:hover{ 
+    background-color:red;
+}
+.flex-container{
+    display: flex; 
+    background-color: aliceblue;
+}
+.container{ 
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content:center;
+
+}
+.container> div> img{ 
+    width: 450px; 
+    height: 450px;
+}
+h6{
+    color:black; 
+    position: absolute; 
+    left: 23%; 
+    top:75%; 
+    border: 1px solid royalblue; 
+    width:150px; 
+    font-size:40px;
+}
+h7{
+    color:black; 
+    position: absolute; 
+    left: 53%; 
+    top:87%; 
+    border: 1px solid palevioletred; 
+    width:150px; 
+    font-size:40px;
+    font-weight:600;
+}
+h8{
+    color:black; 
+    position: absolute; 
+    left: 82%; 
+    top:87%; 
+    border: 1px solid rgb(36, 5, 65); 
+    width:200px; 
+    font-size:40px;
+    font-weight:600;
+}
+h9{
+    color:black; 
+    position: absolute; 
+    left: 23%; 
+    bottom:75; 
+    border: 1px solid red; 
+    width:200px; 
+    font-size:35px;
+    font-weight:600;
+}
+h10{
+    color:black; 
+    position: absolute; 
+    left: 53%; 
+    bottom:74; 
+    border: 1px solid salmon; 
+    width:180px; 
+    font-size:35px;
+    font-weight:600;
+}
+h11{
+    color:black; 
+    position: absolute; 
+    left: 66%; 
+    bottom:74; 
+    border: 1px solid goldenrod; 
+    width:200px; 
+    font-size:35px;
+    font-weight:600;
+} 
+header,footer{
+    background-color: salmon;
+}
+.normal:hover{
+    opacity: 0.3;
+}
